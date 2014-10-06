@@ -1,0 +1,218 @@
+body {
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+
+
+textarea { 
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+
+}
+
+header {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%; 
+	-webkit-box-shadow: 0px 7px 5px rgba(100, 100, 100, 0.49);
+	-moz-box-shadow: 0px 7px 5px rgba(100, 100, 100, 0.49);
+	box-shadow: 0px 7px 20px rgba(100, 100, 100, 0.49);
+	z-index: 999;
+	background-image: url('/images/background.jpg');
+	height: 130px;
+	font-family: Verdana;
+	text-transform: uppercase;
+}
+
+
+th {
+  text-align: left;
+}
+
+
+h3 {
+ color:#ed145b;
+}
+
+
+#team_img {
+	width:100%;
+}
+
+#about {
+	padding:30px;
+}
+
+#front_img {
+	margin-top: 60px;
+    width:100%;
+} 
+#logo_img {
+	border-radius: 25px;
+	margin-top: 40px;
+	position: fixed;
+    top: 60px;
+    left: 5px;
+}
+
+#back_img {
+	margin-top: 40px;
+	position:fixed;
+    top: 100px;
+  	left:570px;
+  	height:300px;
+    width:500px;
+}
+
+
+.about_erb {
+	width:700px;
+	height:410px;
+	padding:200px;
+	position:relative;
+	top:150px;
+	opacity:0.4;
+	font-family: Verdana;
+	background-color: white;
+	padding-bottom: 30px;
+	border-color:black;
+	position:relative;
+	margin:auto;
+	padding-top: 20px;
+	padding-left:20px;
+	padding-bottom:20px;
+	color:black;
+	font-family: 'Roboto', sans-serif;
+}
+
+p {
+	color: black;
+	width:870px;
+	font-size:17px;
+}
+
+
+#WOS_pic {
+	padding-top:100px;
+	left:100px;
+	top:100px;
+	width:100%;
+	height:100%;
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+
+.shop_erb {
+	position:relative;
+	width:600px;
+	height:50px;
+	margin:auto;
+	top:165px;
+	background-color:white;
+	opacity:0.2;
+}
+
+
+#video_logo {
+	margin:0px;
+	opacity:0.6;
+	height: 338px;
+	width:600px;
+	position:relative;
+	top:125px;
+	border-radius:10px;
+	display: block;
+	-webkit-box-shadow: 0px 30px 30px rgba(100, 100, 100, 0.90);
+	-moz-box-shadow: 0px 30px 30px rgba(100, 100, 100, 0.90);
+	box-shadow: 0px 5px 20px rgba(100, 100, 100, 0.20);
+	margin:auto;
+	border:none;
+}
+
+
+a {
+	text-decoration: none;
+	color: white;
+	font-family: myriad pro, arial, tahoma;
+	font-size:30px;
+}
+
+#shop_list {
+	text-decoration: none;
+	padding:10px;
+}
+
+
+#shopamazon {
+	width:230px;
+	height:60px;
+	position:relative;
+	margin:auto;
+	top:185px;
+	left:40%;
+	border-radius:25px;
+	opacity:0.6;
+}
+
+.nav1{
+	position:relative;
+	margin-left:auto;
+	margin-right: auto;
+	text-align:center;
+	top:20px;
+	padding-left:10%;
+}
+
+.nav2{
+	position:relative;
+	margin-left:auto;
+	margin-right: auto;
+	text-align:center;
+	top:20px;
+	padding-right:10%;
+}
+
+
+.nav_buttons {
+	position: relative;
+	float:left;
+	display: inline-block;
+	padding: 30px;
+}
+
+.nav_buttons2 {
+	float:right;
+	position: relative;
+	display: inline-block;
+	padding: 30px;
+
+}
+
+a {
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	font-size:20px;
+}
+
+a:hover {
+	color:#ec008c;
+}
+
+#spacklogo {
+	height:140px;
+	width:250px;
+	position:absolute;
+	top:-5px;
+	left:40%;
+}
+
+
+
+
+

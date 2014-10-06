@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" href="/css/normalize.css">
+ <link href='http://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
+  <!--
+    application.css is where you put your styles
+  -->
+  <link rel="stylesheet" href="/css/application.css">
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="/js/application.js"></script>
+	
+  <title>Spacknew</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<!-- 	<header>
+    <nav class="first">
+      <a href="/"><li id="home">Home</li></a>
+      <a href="/about"><li>About</li></a>
+      <a href="/team"><li>Team</li></a>
+    </nav>
+    <nav class="second">
+      <a href="/shop"><li>Shop</li></a>
+      <a href="/press"><li>Press</li></a>
+      <a href="/blog"><li>Social</li></a>
+    </nav>
+  </header> -->
+  <header>
+    <nav class='nav1'>
+      <div class="nav_buttons"><a href='/'>Home</a></div>
+      <div class="nav_buttons"><a href='/about'>About</a></div>
+      <div class="nav_buttons"><a href='/team'>Team</a></div>
+    </nav>
+    <nav class='nav2'>
+      <div class="nav_buttons2"><a href='/press'>Press</a></div>
+       <div class="nav_buttons2"><a href='/blog'>Blog</a></div>
+      <div class="nav_buttons2"><a href='/shop'>Shop</a></div>
+    </nav>
+    <img id="spacklogo" src='images/spacklogo2.png'>
+  </header>
+<%= yield %>
+
+</body>
+</html>
