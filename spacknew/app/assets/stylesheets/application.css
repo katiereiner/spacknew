@@ -95,12 +95,7 @@ p {
 }
 
 
-a {
-	text-decoration: none;
-	color: white;
-	font-family: myriad pro, arial, tahoma;
-	font-size:30px;
-}
+
 
 #shop_list {
 	text-decoration: none;
@@ -140,6 +135,8 @@ nav {
 	padding-left:4%;
 }
 
+/*____________Line on Hover_______________*/
+
 a {
 	color:black;
 	font-family: 'Roboto', sans-serif;
@@ -147,10 +144,32 @@ a {
 	text-transform: uppercase;
 	font-size:20px;
 }
+a:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #ec008c;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
 
 a:hover {
 	color:#ec008c;
 }
+
+a:hover:after { 
+  width: 50%; 
+  left: 25%; 
+}
+
+
+/*___________________________*/
+
+
 
 #spacklogo {
 	position:absolute;
