@@ -1,19 +1,5 @@
-
-
-
-	<%= @employee_images.each do |image| %>
-	<img src=<%= imamge %>></img>
-	<%end%>
-<!-- <img id="team_img"src="/images/allisoncantor.png">
-<img id="team_img"src="/images/mar_jul.jpg">
-<img id="team_img"src="/images/mar_jul.jpg">
-<img id="team_img"src="/images/mar_jul.jpg">
-<img id="team_img"src="/images/mar_jul.jpg">
-<img id="team_img"src="/images/mar_jul.jpg">
-<img id="team_img"src="/images/mar_jul.jpg">
-<img id="team_img"src="/images/mar_jul.jpg">
-<img id="team_img"src="/images/mar_jul.jpg">
-<img id="team_img"src="/images/mar_jul.jpg">
-<img id="team_img"src="/images/mar_jul.jpg">
-<img id="team_img"src="/images/mar_jul.jpg">
-<img id="team_img"src="/images/mar_jul.jpg"> -->
+<div>
+	<% @images.each do |image|%>
+	<img style= "width:50%; height:50%; border-radius: 50%;" src="images/employees/<%= image %>">
+	<% end %>
+</div>
