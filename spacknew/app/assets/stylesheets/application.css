@@ -45,8 +45,7 @@ h3 {
 	height:410px;
 	padding:200px;
 	position:relative;
-	top:150px;
-	opacity:0.4;
+	top:175px;
 	font-family: Verdana;
 	background-color: white;
 	padding-bottom: 30px;
@@ -167,10 +166,6 @@ a:hover:after {
 }
 
 
-/*___________________________*/
-
-
-
 #spacklogo {
 	position:absolute;
 	left:40%;
@@ -213,8 +208,5 @@ a:hover:after {
 	margin-left:20%;
 	margin-right:20%;
 	font-size:1em;
-
 }
-
-
 
