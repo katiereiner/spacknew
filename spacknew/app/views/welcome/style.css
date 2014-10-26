@@ -1,0 +1,14 @@
+body {
+	width: 100%;
+}
+
+/*nav li {
+	float:left;
+	width:50%;
+	padding:3%;
+}*/
+
+li a {
+	text-decoration:none;
+	color: red;
+}

@@ -17,9 +17,6 @@ header {
 	left: 0;
 	top: 0;
 	width: 100%; 
-	-webkit-box-shadow: 0px 7px 5px rgba(100, 100, 100, 0.49);
-	-moz-box-shadow: 0px 7px 5px rgba(100, 100, 100, 0.49);
-	box-shadow: 0px 7px 20px rgba(100, 100, 100, 0.49);
 	z-index: 999;
 	background-image: url('/images/background.jpg');
 	height: 130px;
@@ -39,32 +36,24 @@ h3 {
 
 
 #team_img {
-	width:100%;
+	position:absolute;
+	top:200px;
+	left:-5px;
+	width:25%;
+	height:30%;
 }
 
 #about {
 	padding:30px;
 }
 
-#front_img {
-	margin-top: 60px;
-    width:100%;
-} 
+
 #logo_img {
 	border-radius: 25px;
 	margin-top: 40px;
 	position: fixed;
     top: 60px;
     left: 5px;
-}
-
-#back_img {
-	margin-top: 40px;
-	position:fixed;
-    top: 100px;
-  	left:570px;
-  	height:300px;
-    width:500px;
 }
 
 
@@ -94,17 +83,6 @@ p {
 	font-size:17px;
 }
 
-
-#WOS_pic {
-	padding-top:100px;
-	left:100px;
-	top:100px;
-	width:100%;
-	height:100%;
-	-webkit-filter: grayscale(100%);
-	-moz-filter: grayscale(100%);
-	filter: grayscale(100%);
-}
 
 .shop_erb {
 	position:relative;
@@ -158,7 +136,28 @@ a {
 	opacity:0.6;
 }
 
-.nav1{
+nav {
+	background-color: white;
+	position: -webkit-sticky;  
+    z-index: 1;  
+	position:fixed;
+	margin-left:auto;
+	margin-right: auto;
+	text-align:center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	top:130px;
+	width:100%;
+}
+
+.nav_buttons {
+	position: relative;
+	display: inline-block;
+	padding-right: 4%;
+	padding-left:4%;
+}
+
+/*.nav1{
 	position:relative;
 	margin-left:auto;
 	margin-right: auto;
@@ -179,23 +178,25 @@ a {
 
 .nav_buttons {
 	position: relative;
+	top:100px;
 	float:left;
 	display: inline-block;
 	padding: 30px;
-}
+}*/
 
-.nav_buttons2 {
+/*.nav_buttons2 {
 	float:right;
+	top:100px;
 	position: relative;
 	display: inline-block;
 	padding: 30px;
 
-}
+}*/
 
 a {
+	color:black;
 	font-family: 'Roboto', sans-serif;
 	text-decoration: none;
-	color: white;
 	text-transform: uppercase;
 	font-size:20px;
 }
@@ -205,11 +206,11 @@ a:hover {
 }
 
 #spacklogo {
+	position:fixed;
+	left:40%;
 	height:140px;
 	width:250px;
-	position:absolute;
 	top:-5px;
-	left:40%;
 }
 
 
