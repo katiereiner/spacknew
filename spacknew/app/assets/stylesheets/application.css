@@ -165,8 +165,10 @@ a:hover {
 	height:18%;
 	position:relative;
 	top:300px;
-	padding:3%;
+	padding:1.5%;
+	margin:2%;
 	border-radius:10%;
+	border: 2px solid black;
 }
 
 .employees {
