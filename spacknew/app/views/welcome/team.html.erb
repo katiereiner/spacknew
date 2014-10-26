@@ -1,5 +1,13 @@
+<div id="marjul">
+	<img src="images/mar_jul.jpg">
+<div id="mjinfo">
+	After just one year in college, twins, Juliette (left) and Mariel Reiss (right), were all too familiar with sleepless nights, mountains of homework, the freshman 15, and worst of all: The Walk of Shame. One too many mornings of smeared makeup and knotty hair sparked the idea to create SPACK. Now, as juniors in college (Juliette at the University of Pennsylvania and Mariel at The University of Michigan) Juliette and Mariel are revolutionizing the morning after. The Walk of Shame turned Stride of Pride.
+	</div>
+</div>
+
 <div class="employees">
 	<% @images.each do |image|%>
-	<img src="images/employees/<%= image %>">
+	<img id="<%=image.split(".").first%>" src="images/employees/<%= image %>">
 	<% end %>
 </div>
+
