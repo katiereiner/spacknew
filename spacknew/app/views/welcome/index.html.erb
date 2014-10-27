@@ -1,12 +1,28 @@
-<!--   <iframe id="video_logo" src="/videos/spackvidupdated.mp4"></iframe> -->
+<style>
+	.fadein { 
+		position:relative; 
+		width:500px; 
+		height:332px;
+		text-align: center;
+	}
+	.fadein img { position:absolute; 
+		left:0; 
+		top:0; }
+	</style>
 
-<div id="carousel">
-<img src="/images/mar_jul.jpg" width="360" height="270">
-<img src="/images/amazon.jpg" width="360" height="270">
-<img src="/images/logo.jpg" width="360" height="270">
-<img src="/images/back_product.jpg" width="360" height="270">
-<img src="/images/front_product.jpg" width="360" height="270">
-<img src="/images/pack.jpg" width="360" height="270">
-<img src="/images/whiteamazon.jpg" width="360" height="270">
-<img src="/images/background.jpg" width="360" height="270">
-</div>
+	<script type="text/javascript">
+		$(function(){
+			$('.fadein img:gt(0)').hide();
+			setInterval(function(){
+				$('.fadein :first-child').fadeOut()
+				.next('img').fadeIn()
+				.end().appendTo('.fadein');}, 
+				3000);
+		});
+	</script>
+
+	<div class="fadein">
+		<img src="http://farm3.static.flickr.com/2610/4148988872_990b6da667.jpg">
+		<img src="http://farm3.static.flickr.com/2597/4121218611_040cd7b3f2.jpg">
+		<img src="http://farm3.static.flickr.com/2531/4121218751_ac8bf49d5d.jpg">
+	</div>
