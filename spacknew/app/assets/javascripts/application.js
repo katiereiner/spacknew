@@ -11,10 +11,21 @@ $(document).ready(function() {
 			$('#spack_head').stop().animate({ fontSize : '20px' });
 			// // $('.about_erb').addClass('resize').fadeIn('slow', function() {			
 			// });
-		});
+	});
 	});
 
 	$(window).scroll(function(){	var scrollTop = 142; if($(window).scrollTop() >= scrollTop){	$('nav').css({	position : 'fixed',	top : '0'	});	} if($(window).scrollTop() < scrollTop){ $('nav').removeAttr('style');	}
+});
+
+	$(document).ready(function () {
+		$("button").click(function () {
+			$(".pop").fadeIn(300);
+			positionPopup();
+		});
+
+		$(".pop > span, .pop").click(function () {
+			$(".pop").fadeOut(300);
+		});
 	});
 });
 
